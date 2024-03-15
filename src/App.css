@@ -1,0 +1,40 @@
+.container{
+  background-color: aquamarine;
+  width: 70%;
+  margin: auto;
+}
+
+.dropdownmenu{
+  height: 100vh;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  margin-top: 200px;
+  cursor: pointer;
+  overflow:auto;
+  font-size: large;
+  text-wrap: nowrap;
+}
+
+.options-container{
+  width: 100% ;
+  min-height: fit-content; 
+  max-height: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px black solid;
+  background-color: rgb(255, 246, 235);
+}
+
+.single-option{
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px rgba(0, 0, 0, 0.253) solid ;
+  overflow: auto;
+}
